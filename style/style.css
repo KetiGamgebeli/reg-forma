@@ -1,0 +1,196 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.surati{
+  width: 1518px;
+  height: 1072px;
+  background-image: url(../img/bg.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: relative;
+}
+
+.shekveta{
+  width: 756px;
+  background-color: #000000;
+  border-radius: 20px;
+  margin-left: 600px;
+  margin-right: 90px;
+  margin-top: 58px;
+  margin-bottom: 868px;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.textshekveta{
+  font-size: 36px;
+  color: #ffffff;
+  padding: 40px 130px;
+}
+
+.regforma{
+  width: 750px;
+  margin-left: 600px;
+  position: absolute;
+  top: 220px;
+  left: 0;
+  margin-top: 64px;
+}
+
+.regforma input{
+  width: 100%;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 26px;
+  outline: none;
+}
+
+.regforma input::placeholder{
+  color: #000000;
+}
+
+.regforma textarea{
+  resize: none;
+  width: 750px;
+  border-radius: 10px;
+  outline: none;
+  margin-top: 12px;
+  margin-bottom:18px;
+}
+.gadaxdismetodi input{
+  margin-left: 50px;
+}
+.datvalierebanivtebis a{
+  color: #000000;
+  display: block;
+}
+
+.gaformeba{
+  width: 750px;
+  background-color: #01AF8C;
+  border-radius: 10px;
+  padding: 22px 280px;
+  text-align: center;
+  margin-top: 50px;
+  cursor: pointer;
+}
+.gaformeba p a{
+  font-size: 20px;
+  color: #000000;
+  
+}
+
+.regforma label{
+  font-size: 14px;
+}
+.gadaxdismetodi p{
+  font-size: 14px;
+}
+
+.gadaxdismetodi label{
+  font-size: 20px;
+}
+.gadaxdismetodi{
+  width: 470px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 88px;
+  margin-bottom: 55px;
+  margin-left: 128px;
+  padding-right: 40px;
+}
+
+
+.gadaxdismetodi input[type=radio]{
+  display: none;
+}
+
+.gadaxdismetodi input[type=radio] + label{
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  background-color: #ffffff;
+  position: relative;
+}
+
+.gadaxdismetodi input[type=radio]:checked + label::after{
+position: absolute;
+content: "";
+height: 15px;
+width: 15px;
+border:1px solid black;
+left: 0;
+right: 0;
+top: -6px;
+bottom: 0;
+margin: auto;
+transform:rotate(45deg);
+border-top-color: transparent;
+border-left-color: transparent;
+}
+
+
+.shekvetismigeba{
+  width: 750px;
+  background-color: #000000;
+  padding-left: 38px;
+  padding-right: 60px;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  margin-top: 56px;
+  margin-left: 600px;
+  margin-right: 90px;
+  margin-bottom: 600px;
+  border-radius: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.shekmig, .gakidvebismenejeri{
+  color: #ffffff;
+  font-size: 36px;
+}
+
+.madloba{
+  color: #ffffff;
+  font-size: 20px;
+}
+.shekvetismigeba p{
+  text-align: center;
+}
+
+.shekmig{
+  margin-bottom: 40px;
+}
+.gakidvebismenejeri{
+  width: 664px;
+  margin-bottom: 66px;
+}
+
+.datvalierebanivtebis{
+  width: 750px;
+  background-color: #F5BA22;
+  border-radius: 10px;
+  position: absolute;
+  bottom: -246px;
+  left: 0;
+  padding: 22px 164px;
+  margin-left: 600px;
+  cursor: pointer;
+ 
+}
+.datvalierebanivtebis p{
+  width: 500px;
+  font-size: 20px;
+}
